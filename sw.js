@@ -1,4 +1,4 @@
-var CACHE_NAME = 'izabellebraga_cache-v1'
+var CACHE_NAME = 'izabelle-v1'
 var urlsToCache = [
 'css/izabellebraga.css',
 'css/bootstrap.css',

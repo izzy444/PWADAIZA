@@ -1,4 +1,4 @@
-var CACHE_NAME = 'izabelle-v1'
+var cacheName = 'izabelle-v1'
 var filesToCache = [
     './',
     './index.html',
@@ -6,7 +6,7 @@ var filesToCache = [
 ];
 self.addEventListener('install', function(e) {
   e.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
+    caches.open(cacheName).then(function(cache) {
       return cache.addAll(filesToCache);
     })
   );

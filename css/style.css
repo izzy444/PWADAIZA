@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+* {
+    font-family: 'Playfair Display', serif;
+    color: rgb(27, 25, 21);
+    font-size: 1em;
+    background-color:orange;
+}
+
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botaozin {
+    border: solid 5px tomato;
+    color: cornsilk;
+}
+
+label {
+    color: cornsilk;
+}

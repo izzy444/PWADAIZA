@@ -1,11 +1,11 @@
 var CACHE_NAME = 'izabelle-v1'
 var urlsToCache = [
-'css/izabellebraga.css',
-'css/bootstrap.css',
-'img/favicon.png ',
-'js/bootstrap.js',
-'js/jquery-3.5.1.min.js',
-'libs/swweetalert2-master/src/sweetalert2.js',
+'./css/izabellebraga.css',
+'./css/bootstrap.css',
+'./img/favicon.png ',
+'./js/bootstrap.js',
+'./js/jquery-3.5.1.min.js',
+'./libs/swweetalert2-master/src/sweetalert2.js',
 ] 
 
 self.addEventListener('install', function(event) {
